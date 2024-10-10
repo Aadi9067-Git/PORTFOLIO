@@ -4,16 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aditya-Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
-            <div class="left"></div>
-            <div class="right"></div>
+            <div class="left">Aditya's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">HOME</a></li></a>
+                    <li><a href="/">ABOUT</a></li></a>
+                    <li><a href="/">PROJECTS</a></li></a>
+                    <li><a href="/">CONTACT ME</a></li></a>
+                </ul>
+            </div>
         </nav>
     </header>
-    
+    <main>
+        <section class="first">
+            <div class="leftsection">Hi,My Name Is <span class="purple">Aditya</span>
+                <div>and I am a Fullstack Web Developer</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection"><img src="bg.png" alt=""></div>
+        </section>
+        <section>
 
+
+            <section class="secondsection">
+                <h1>Past Experience</h1>
+            </section>
+        </section>
+        
+
+    </main>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: [' ', '&amp;Design  Engineer',],
+          typeSpeed: 50,
+        });
+      </script>
 
 </body>
 </html>
